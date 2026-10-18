@@ -1,4 +1,4 @@
-# CODE × LENS — The Digital Journal
+# ARCODE × LENS — The Digital Journal
 
 Portofolio pribadi satu halaman (developer + fotografer). Berisi Hero, About, Developer/Projects, Photography (film strip), Connection, Experience, CV, dan Contact. Semua konten pribadi masih berupa **placeholder** yang jelas ditandai `[TBD]`.
 
