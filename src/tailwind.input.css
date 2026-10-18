@@ -1,0 +1,19 @@
+/* Tailwind CSS v4 source. Only theme + utilities are imported (no Preflight),
+   so enabling Tailwind never resets or alters the existing custom styles. */
+@layer theme, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@source "../index.html";
+@source "../js/script.js";
+
+@theme {
+  --color-ivory: #F5F0E7;
+  --color-charcoal: #20231F;
+  --color-forest: #304B3D;
+  --color-sage: #82917B;
+  --color-terracotta: #D9825B;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-body: Inter, system-ui, sans-serif;
+}

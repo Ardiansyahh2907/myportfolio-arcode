@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="icon" type="image/png" href="assets/photos/logo.png">
+    <title>ARCODE × LENS — The Digital Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="bar">
+        <a class="mark" href="#top">ARCODE<span>×</span>LENS</a>
+        <button id="tog" aria-expanded="false" aria-controls="nav">Menu</button>
+        <nav id="nav" aria-label="Main">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#developer">Developer</a></li>
+            <li><a href="#photography">Photography</a></li>
+            <li><a href="#connection">Connection</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Introduction">
+        <div class="wrap">
+          <div>
+            <div class="roles intro-a">
+              <span>DEVELOPER</span>
+              <span>PHOTOGRAPHER</span>
+            </div>
+            <h1 class="intro-a" style="animation-delay:.1s">
+              I build <span class="ov">digital</span> experiences<em>.</em>
+            </h1>
+            <p class="in intro-a" style="animation-delay:.3s">
+              Exploring the intersection of code, visual storytelling, and creative experimentation.
+            </p>
+            <div class="cta intro-a" style="animation-delay:.45s">
+              <a class="btn pri" href="#developer">Selected works</a>
+              <a class="btn" href="#about">About</a>
+            </div>
+          </div>
+          <div
+            class="stage intro-a"
+            id="stage"
+            style="animation-delay:.25s"
+            role="img"
+            aria-label="Portrait placeholder: layered silhouette on an arch with a terracotta sun"
+          >
+            <div class="arch" data-d="10"></div>
+            <div class="arch2" data-d="18"></div>
+            <div class="sun" data-d="26"></div>
+            <div class="cut" data-d="44" id="portrait"></div>
+
+          </div>
+        </div>
+        <div class="hint">Different disciplines. One creative perspective.</div>
+      </section>
+
+      <section class="sec about" id="about">
+        <div class="wrap">
+          <div class="photo2 rv">
+            <div class="pf" id="ab1" role="img" aria-label="Editorial portrait placeholder"></div>
+            <div class="pf s" id="ab2" role="img" aria-label="Detail photo placeholder"></div>
+          </div>
+          <div class="rv">
+            <span class="label">About</span>
+            <h2 style="margin:14px 0 24px">Beyond the <em>screen</em></h2>
+            <p id="bio"></p>
+            <p id="bio2"></p>
+            <dl class="facts" id="facts"></dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec dark dev" id="developer">
+        <div class="wrap">
+          <span class="label rv">Developer</span>
+          <h2 class="rv" style="margin-top:14px">Built with <em>logic</em></h2>
+          <p class="intro rv">
+            Software is where I practice structure and iteration. The stack and projects below are
+            editable examples until confirmed.
+          </p>
+          <div class="stack rv" id="stack" aria-label="Technology stack (editable examples)"></div>
+          <div class="proj rv" id="projects"></div>
+          <p class="note">
+            Project details and links are placeholders to verify. Hover a title (desktop) or tap it
+            to open details.
+          </p>
+        </div>
+      </section>
+      <div id="pv" aria-hidden="true"></div>
+
+      <section class="sec photo" id="photography">
+        <div class="wrap head rv">
+          <span class="label">Photography</span>
+          <h2 style="margin:14px 0 20px">Through my <em>lens</em></h2>
+          <p>
+            Temporary frames stand in for my photographs. Scroll to move along the film strip;
+            select a frame to enlarge it.
+          </p>
+        </div>
+        <div class="film" id="film">
+          <div class="pin">
+            <div class="track" id="track"></div>
+            <div class="prog" aria-hidden="true"><i id="bar"></i></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec conn" id="connection">
+        <div class="wrap">
+          <div class="rv">
+            <span class="label">The connection</span>
+            <h2 style="margin:14px 0 0">
+              I build with logic.<br>
+              <em>I create with perspective.</em>
+            </h2>
+            <ul class="pairs" aria-label="Development and photography concepts">
+              <li><span>Logic</span><span>×</span><span>Composition</span></li>
+              <li><span>Structure</span><span>×</span><span>Framing</span></li>
+              <li><span>Iteration</span><span>×</span><span>Observation</span></li>
+              <li><span>Function</span><span>×</span><span>Perspective</span></li>
+            </ul>
+          </div>
+          <div class="obj" aria-hidden="true">
+            <div class="cube" id="cube">
+              <i>LOGIC</i>
+              <i>STRUCTURE</i>
+              <i>FRAME</i>
+              <i></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec exp" id="experience">
+        <div class="wrap">
+          <span class="label rv">Experience and education</span>
+          <h2 class="rv" style="margin-top:14px">The path <em>so far</em></h2>
+          <div class="tl rv" id="tl"></div>
+        </div>
+      </section>
+
+      <section class="sec cv" id="cv">
+        <div class="wrap">
+          <div class="rv">
+            <span class="label">Curriculum vitae</span>
+            <h2 style="margin:14px 0 20px">My <em>CV</em></h2>
+            <p id="cvtxt" style="max-width:42ch"></p>
+            <div class="cta" id="cvbtns" style="margin-top:24px"></div>
+            <p class="note" id="cvnote"></p>
+          </div>
+          <div class="sheet rv" aria-hidden="true">
+            <div class="sh">
+              <div class="av"></div>
+              <div>
+                <i class="t"></i>
+                <i class="s"></i>
+              </div>
+            </div>
+            <div class="bar2"></div>
+            <div class="cols">
+              <div>
+                <u></u>
+                <i></i>
+                <i class="w7"></i>
+                <i></i>
+                <i class="w5"></i>
+                <u></u>
+                <i></i>
+                <i class="w7"></i>
+                <i></i>
+                <u></u>
+                <i></i>
+                <i class="w5"></i>
+              </div>
+              <div>
+                <u></u>
+                <i></i>
+                <i class="w7"></i>
+                <i class="w5"></i>
+                <u></u>
+                <i></i>
+                <i></i>
+                <i class="w7"></i>
+                <u></u>
+                <i></i>
+                <i class="w5"></i>
+              </div>
+            </div>
+            <b class="stamp">Placeholder</b>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec dark contact" id="contact">
+        <div class="wrap">
+          <span class="label">Contact</span>
+          <h2 style="margin:14px 0 24px">Let's make <em>something</em></h2>
+          <p style="max-width:44ch">
+            Open to collaborations, internships, and conversations about code or photography.
+          </p>
+          <div class="links" id="links"></div>
+          <div id="mail"></div>
+          <footer>
+            <span>© <span id="yr"></span> <span id="fname"></span> · CODE × LENS</span>
+            <a href="#top">Back to top</a>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="pd" aria-labelledby="pdt">
+      <div class="in">
+        <button class="btn x" id="pdx" aria-label="Close">Close</button>
+        <div class="pm" id="pdm"></div>
+        <span class="label" id="pdy"></span>
+        <h3 id="pdt"></h3>
+        <p id="pdd"></p>
+        <div class="tags" id="pdg"></div>
+        <div id="pdl"></div>
+        <p class="note">Placeholder project — verify details before publishing.</p>
+      </div>
+    </dialog>
+
+    <dialog class="lb" id="lb" aria-labelledby="lbt">
+      <div class="in">
+        <button
+          class="btn x"
+          id="lbx"
+          aria-label="Close"
+          style="color:var(--ivory);border-color:var(--ivory)"
+        >
+          Close
+        </button>
+        <div id="lbi"></div>
+        <h3 id="lbt" style="font-size:28px;margin-top:16px"></h3>
+        <p id="lbd" style="margin:0"></p>
+        <p class="note" id="lbm"></p>
+      </div>
+    </dialog>
+  </body>
+</html>
